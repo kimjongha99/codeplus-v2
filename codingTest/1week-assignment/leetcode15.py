@@ -11,8 +11,6 @@ def threeSum( nums: List[int]) -> List[List[int]]:
         if i > 0 and nums[i] == nums[i-1]: # 중복된 원소를 건너뛰기 위한 조건문입니다. 같은 원소가 연속해서 나오면 건너뜁니다.
 
             continue
-
-
         # 두 개의 포인터를 초기화합니다. 하나는 현재 원소의 다음 위치(left), 다른 하나는 배열의 끝 위치(right)에 둡니다.
         left = i + 1
         right = len(nums) - 1
