@@ -1,4 +1,6 @@
 def longestPalindrome( s: str) -> str:
+    a = str
+    return a
 
 
 
