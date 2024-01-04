@@ -1,7 +1,13 @@
+from collections import deque
 
-str1='asdasd'
-str = {'{':'}'}
+# Example deque
+i_deque = deque([1, 3, 5, 7, 9])
 
-for s in str1:
-    for s in str:
-        print(s)
+# Finding the maximum value
+best = max(i_deque)
+
+# Example if statement using 'best'
+if best > 5:
+    print(f"The maximum value {best} is greater than 5.")
+else:
+    print(f"The maximum value {best} is not greater than 5.")
