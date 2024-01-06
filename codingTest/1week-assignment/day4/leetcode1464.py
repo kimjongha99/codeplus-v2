@@ -16,12 +16,6 @@ class Solution:
 
 
 
-
-
-
-
-
-
 if __name__ == "__main__":
     nums =[10,2,5,2]
     sol = Solution()

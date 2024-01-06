@@ -21,13 +21,6 @@ class Solution:
 
         return min_list
 
-
-
-
-
-
-
-
 if __name__ == "__main__":
     mat = [[1,0,0,0],
  [1,1,1,1],
