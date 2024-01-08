@@ -21,5 +21,8 @@ for _ in range(tc):
         else:
             left_list.append(s)
 
+    print(right_list)
+
+
     final_output = ''.join(left_list) + ''.join(reversed(right_list))
     print(final_output)
