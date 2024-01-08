@@ -1,4 +1,4 @@
-package week1.day5;
+package week1.day4;
 //https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/
 //        2차원 배열에서의 1은 군인  0 은 민간인
 //        행렬에서  한 행의 군인의 수 얼마나 많은지
