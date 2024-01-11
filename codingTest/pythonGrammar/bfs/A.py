@@ -18,14 +18,13 @@ def bfs(home):
     Q.append(0)
     visited[0]=1
     L =0
-
     while Q:
         n = len(Q) # 레벨의 개수
         for i in range(n):
             x = Q.popleft()
             if x==home:
                 return L
-            for nx in [x-1, x+2 ,x+5]:
+            for nx in [x-1, x+1 ,x+5]:
                 if nx >=0 and nx <=10000 and visited[nx]==0:
                     Q.append(nx)
                     visited[nx]=1
