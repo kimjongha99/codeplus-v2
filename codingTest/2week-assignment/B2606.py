@@ -1,24 +1,25 @@
+com = int(input())
 n = int(input())
-m = int(input())
-graph = []
-for _ in range(n + 1):
-    graph.append([])
 
-for _ in range(m):
+visited = [0] * (com + 1)
+graph = [[] for _ in range(com + 1)]
+
+for _ in range(n):
     a, b = map(int, input().split())
     graph[a].append(b)
     graph[b].append(a)
 
-cnt = 0
-visited = [0] * (n + 1)
-
 def dfs(start):
-    global cnt
+    global count
     visited[start] = 1
-    for i in graph[start]:
-        if visited[i] == 0:
-            dfs(i)
-            cnt += 1
+    count += 1
 
+    for i in graph[start]:
+        if visited[i]==0:
+            dfs(i)
+
+
+count = 0
 dfs(1)
-print(cnt)
+
+print( count - 1)
