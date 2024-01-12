@@ -7,7 +7,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 //https://www.acmicpc.net/problem/9095
 
-//123 더학
+//123 더하기
+
 public class B9095 {
 
 
