@@ -1,4 +1,4 @@
-package week3;
+package week3.day1;
 // 수정렬하기2
 //https://www.acmicpc.net/problem/2751
 

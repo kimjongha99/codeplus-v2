@@ -1,4 +1,4 @@
-package week3;
+package week3.day1;
 //https://www.acmicpc.net/problem/10814
 
 //나이순 정렬

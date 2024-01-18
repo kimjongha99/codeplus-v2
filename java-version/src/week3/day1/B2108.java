@@ -1,4 +1,4 @@
-package week3;
+package week3.day1;
 
 //https://www.acmicpc.net/problem/2108
 //통계학
