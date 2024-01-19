@@ -10,7 +10,6 @@ for _ in range(N):
 
 print(time)
 time.sort(key=lambda x : (x[0],x[1])) # 0번순으로 정렬하고 같으면 1번순으로?
-
 print(time)
 
 heap = [time[0][1]] # 힙에 첫 번째 강의의 끝나는 시간을 저장
