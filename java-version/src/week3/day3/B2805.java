@@ -24,7 +24,7 @@ public class B2805 {
             max = Math.max(trees[i], max);
         }
 
-//        Arrays.sort(trees); // 상관없음 붙이든말던
+//        Arrays.sort(trees); // 상관없음
 
         while (min < max) {  //이분탐색들어감
             int mid = (max+min)/2;
