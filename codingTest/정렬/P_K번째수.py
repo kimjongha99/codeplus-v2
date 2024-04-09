@@ -13,27 +13,12 @@
 
 def solution(array, commands):
     answer = []
-
-    # commands의len을 반복한다.
-    for i in range(len(commands)):
-        x = commands[i][0]
-        y = commands[i][1]
-        z = commands[i][2]
-        extracted_part = array[x-1:y]
-        extracted_part.sort()
-        answer.append(extracted_part[z-1])
-
+    for command in commands:
+        i,j,k = command
+        sliced = sorted(array[i-1:j])
+        answer.append(sliced[k-1])
     return answer
-    # x =commands[i][0] , y= commands[i][1] 을 추출한다.
 
-    # array를 시작을 x , 끝을 y로 자른다.
-
-    # 그리고 array를 sort한다.
-
-    # 그리고  commands[i][2] 값을 answer에 append 한다.
-
-    # 그리고 x =commands[i][0] , y= commands[i][1] 을 추출한다.
-    # 반복
 
 
 
